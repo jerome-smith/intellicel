@@ -1,6 +1,4 @@
-/**
- * cli.lib.reqhandlers.core.clearance-bodies
- */
+
 var http        = require("http"),
   url         = require("url"),
   util        = require('util'),
@@ -15,16 +13,12 @@ module.exports = function (DB, app, tools) {
   app.post("/cmd/secure-file-transfers", function (req, res) {
     tools.respondJson(req, res, req.body);
   });
-  //
-  // download a secure file
-  //
+
   app.get("/cmd/secure-file-transfers-external/:sessionId/users/:userId/files/:fileId", function (req, res) {
     tools.respondNull(req, res);
   });
 
-  //
-  // returns the downloads list
-  //
+
   app.get("/cmd/secure-file-transfers-external/:sessionId/users/:userId",
     function (req, res) {
     tools.respondJson(req, res,
