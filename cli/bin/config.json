@@ -1,0 +1,18 @@
+{
+  "apiHost"        : "",
+  "api"            : 80,
+  "proxySvr1"      : 8001,
+  "proxySvr2"      : 7999,
+  "fixSvr1"        : 8000,
+  "fixSvr3"        : 8002,
+  "appIndex"       : "app/index.html",
+  "imgCount"       : 4,
+  "staticDirs" : [
+    "app",
+    "libs",
+    "assets",
+    "test",
+    "external",
+    "intermediate"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "intellicellapp",
+  "description": "Command line app that helps local development",
+  "version": "0.0.1",
+  "private": true,
+  "author": "jerome smith",
+  "dependencies": {
+    "flatiron": "0.2.8",
+    "pkginfo": "0.2.3",
+    "express": "3.4.0",
+    "http-proxy": "~0.8.3",
+    "optimist": "0.3.5",
+    "colors": "~0.6.0-1",
+    "moment": "2.5.1",
+    "chromelogger": "1.1.0",
+    "moment-timezone" : "0.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jerome-smith/intellicel.git"
+  },
+  "engines": {
+    "node": ">= 6.0"
+  }
+}
